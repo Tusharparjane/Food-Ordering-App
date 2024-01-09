@@ -1,47 +1,57 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid black;
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
 }
 
 .logo {
-    width:200px;
+  width: 200px;
 }
-.Navitems > ul{
-    display: flex;
-    margin-left: 10px;
-    margin-right: 50px;
-    list-style-type: none;
+.Navitems > ul {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 50px;
+  list-style-type: none;
 }
-.Navitems > ul >li{
-    padding: 20px;
-    font-size: 30px;
-    margin-top: 50px;
-    
+.Navitems > ul > li {
+  padding: 20px;
+  font-size: 30px;
+  margin-top: 50px;
 }
 
-.res-container{
+.res-container {
   display: flex;
   flex-wrap: wrap;
-
 }
 
-.res-card{
-    margin-left: 10px;
-    width: 300px;
-    height: 400px;
-    text-align: center;
+.res-card {
+  margin-left: 10px;
+  width: 300px;
+
+  text-align: center;
 }
 
-.res-card:hover{
-    cursor: pointer;
-    border:  1px solid black;
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
 }
 
-.search{
-    padding: 10px;
+.search {
+  padding: 10px;
 }
-.res-logo{
-    width: 300px;
-    height: 230px;
+.res-logo {
+  width: 300px;
+  height: 230px;
+}
+.filter-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.login {
+  cursor: pointer;
+  margin-top: 50px;
+  padding: 0px 20px;
+}
+.filter {
+  display: flex;
 }
